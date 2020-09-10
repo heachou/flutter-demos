@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../common/widget_list.dart';
+import 'widget_list.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);

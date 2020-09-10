@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AppBarPage extends StatelessWidget {
-  const AppBarPage({Key key}) : super(key: key);
+class BackDropPage extends StatelessWidget {
+  const BackDropPage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('AppBar Test'),
+        title: Text('backdrop demo'),
       ),
     );
   }

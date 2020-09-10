@@ -10,8 +10,8 @@ class WidgetList extends StatefulWidget {
 class _WidgetListState extends State<WidgetList> {
   List<Map> list = [
     {'name': 'AppBar', 'path': 'appBar'},
-    {'name': 'button', 'path': 'button'},
-    {'name': 'hcoder', 'path': 16},
+    {'name': 'Backdrop', 'path': 'backDrop'},
+    {'name': 'banner', 'path': 'banner'},
     {'name': 'graceui', 'path': 18},
     {'name': 'hcoder', 'path': 16},
     {'name': 'graceui', 'path': 18},
