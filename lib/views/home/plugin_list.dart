@@ -1,25 +1,16 @@
 import 'package:flutter/material.dart';
 
-class WidgetList extends StatefulWidget {
-  WidgetList({Key key}) : super(key: key);
+class PluginList extends StatefulWidget {
+  PluginList({Key key}) : super(key: key);
 
   @override
-  _WidgetListState createState() => _WidgetListState();
+  _PluginListState createState() => _PluginListState();
 }
 
-class _WidgetListState extends State<WidgetList> {
+class _PluginListState extends State<PluginList> {
   List<Map> list = [
-    {'name': 'AppBar', 'path': 'appBar'},
-    {'name': 'Backdrop', 'path': 'backDrop'},
-    {'name': 'banner', 'path': 'banner'},
-    {'name': 'bottom navigation', 'path': 'bottomNavigation'},
-    {'name': 'button', 'path': 'button'},
-    {'name': 'cards', 'path': 'cards'},
-    {'name': 'chips', 'path': 'chips'},
-    {'name': 'graceui', 'path': 18},
-    {'name': 'hcoder', 'path': 16},
-    {'name': 'graceui', 'path': 18},
-    {'name': 'phpgrace', 'path': 20}
+    {'name': 'http', 'path': 'http'},
+    {'name': 'json_serializable', 'path': 'json_serializable'}
   ];
 
   @override

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'widget_list.dart';
+import 'plugin_list.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);
@@ -11,7 +12,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   TabController _tabController; //需要定义一个Controller
   List<String> tabs = ['widget', 'plugins'];
-  List<Widget> tabsView = [WidgetList(), Text('plugins')];
+  List<Widget> tabsView = [WidgetList(), PluginList()];
   @override
   void initState() {
     super.initState();

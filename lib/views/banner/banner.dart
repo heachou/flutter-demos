@@ -10,7 +10,8 @@ class BannersPage extends StatelessWidget {
         title: Text('banners'),
       ),
       body: MaterialBanner(
-        content: const Text('Error message text'),
+        content: const Text(
+            'Error message text message text message text message text message text message text'),
         leading: CircleAvatar(child: Icon(Icons.delete)),
         actions: [
           FlatButton(
