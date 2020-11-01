@@ -16,8 +16,8 @@ class _WidgetListState extends State<WidgetList> {
     {'name': 'button', 'path': 'button'},
     {'name': 'cards', 'path': 'cards'},
     {'name': 'chips', 'path': 'chips'},
-    {'name': 'graceui', 'path': 18},
-    {'name': 'hcoder', 'path': 16},
+    {'name': 'listview', 'path': 'listview'},
+    {'name': 'customScrollView', 'path': 'customScrollview'},
     {'name': 'graceui', 'path': 18},
     {'name': 'phpgrace', 'path': 20}
   ];

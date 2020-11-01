@@ -10,7 +10,8 @@ class PluginList extends StatefulWidget {
 class _PluginListState extends State<PluginList> {
   List<Map> list = [
     {'name': 'http', 'path': 'http'},
-    {'name': 'json_serializable', 'path': 'json_serializable'}
+    {'name': 'json_serializable', 'path': 'json_serializable'},
+    {'name': 'Dio', 'path': 'dio'},
   ];
 
   @override
